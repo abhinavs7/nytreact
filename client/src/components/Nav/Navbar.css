@@ -1,0 +1,32 @@
+
+  .topnav  {
+    display: inline-block;
+    width: 100%;
+    margin-top: -20px;
+    background-color: rgba(0, 0, 0, 0.582);
+   }
+  span{ 
+    margin-left: 30px;
+    background-color: transparent;
+    font-size: larger;
+  }
+  .navItem{
+    color:whitesmoke
+
+  }
+.navItem:hover{
+  color:white
+}
+
+.backNav{
+  color: rgb(255, 255, 255);
+  font-size: larger;
+font-weight: bolder}
+.backNav:hover{
+  color: rgb(0, 0, 0);
+  font-size: larger;
+}
+span.savePage{
+  font-size: medium;
+  color: rgba(0, 0, 0, 0.582);
+}

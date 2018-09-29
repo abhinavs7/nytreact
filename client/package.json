@@ -1,0 +1,31 @@
+{
+  "name": "mern",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": {
+    "/api": {
+      "target": "http://localhost:3001"
+    },
+    "/assets": {
+      "target": "http://localhost:3001"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "moment": "^2.22.2",
+    "react": "^16.0.0",
+    "react-datepicker": "^1.6.0",
+    "react-day-picker": "^7.2.4",
+    "react-dom": "^16.0.0",
+    "react-helmet": "^5.2.0",
+    "react-router-dom": "^4.1.2",
+    "react-scripts": "1.0.14",
+    "yarn": "^1.10.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
